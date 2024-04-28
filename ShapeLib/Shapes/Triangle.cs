@@ -9,9 +9,9 @@ namespace ShapeLib.Shapes
 {
     public class Triangle : IShape
     {
-        public double side1 { get; set; }
-        public double side2 { get; set; }
-        public double side3 { get; set; }
+        private double side1 { get; set; }
+        private double side2 { get; set; }
+        private double side3 { get; set; }
 
         public Triangle(double side1, double side2, double side3)
         {

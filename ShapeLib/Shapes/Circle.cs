@@ -9,7 +9,7 @@ namespace ShapeLib.Shapes
 {
     public class Circle : IShape
     {
-        double radius { get; set; }
+        private double radius { get; set; }
 
         public Circle(double radius)
         {
